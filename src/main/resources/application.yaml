@@ -1,0 +1,8 @@
+spring:
+  application: { name: training }
+springdoc:
+  swagger-ui: { path: /docs }
+jwt:
+  token: { secret: secret }
+server:
+  forward-headers-strategy: framework
